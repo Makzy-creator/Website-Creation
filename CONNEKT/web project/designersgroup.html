@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/groups.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <title>UNIQUE DESIGNERS</title>
+</head>
+<body class="body">
+    <nav class="w-100 bg-white position-fixed top-0">
+        <div class="containerr d-flex align-items-center justify-content-between">
+            <div>
+                <img class="logo img-fluid d-block" src="./IMG/C logo P.png" alt="">
+            </div>
+            <div>
+                <h2 class="text-center text-bold">WELCOME TO UNIQUE DESIGNER'S</h2>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <label class="btn btn-prime text-white bold" for="create-post">Create</label>
+                <label class="btn btn-primary" for="leave-group">Leave Group</label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <main class="position-relative">
+        <div class="containerr d-grid position-static">
+            <!-- left side -->
+            <div class="left position-sticky">
+                <a href="" class="profile d-flex bg-white text-dark         text-decoration-none align-items-center justify-content-center">
+                    <div class="profile-picture">
+                        <img class="img-fluid d-block" src="./IMG/IMG-20220220-WA0010 (2).jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Keicha</h4>
+                        <p class="text-muted">
+                            @RealKeicha
+                        </p>
+                    </div>
+                </a>
+                <!-- -------------Side Bar---------- -->
+                <div class="sidebar mt-3 bg-white">
+                    <a class="menu-item d-flex align-items-center active overflow-hidden">
+                        <span><i class="fa-solid fa-house fs-5"></i></span><h3 class="prime">Home</h3>
+                    </a>
+                    <a  class="menu-item d-flex align-items-center" id="explore">
+                        <span><i class="fa-solid fa-compass fs-5"></i></span><h3>Explore</h3>
+                        <!-- explore popup -->
+                        <!-- <div class="explore-popup">
+                            <h5>Check out various groups</h5>
+                            <a href="" class="text-muted">Interior decorations</a>
+                            <a href="">Relationships</a>
+                            <a href="">Fin Stars</a>
+                        </div> -->
+                        <!--end of explore popup -->
+                    </a>
+                    <a class="menu-item text-dark text-decoration-none d-flex align-items-center" id="notifications">
+                        <span><i class="fa-solid fa-bell fs-5"><small class="notification-count bg-danger text-white position-absolute">9+</small></i></span><h3>Notifications</h3>
+                        <!--------------- notification popup-------- -->
+                        <div class="notifications-popup position-absolute top-0 bg-white p-3 d-none">
+
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Palmer</b> accepted your friend request
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block"  src="./IMG/about-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ibeh Chiebuka</b> commented on your post
+                                    <small class="text-muted d-block">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block"  src="./IMG/blog-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Obasi Ijeoma</b> liked your picture
+                                    <small class="text-muted d-block">2 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/blog-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Wilson Tech</b> is inviting you to join the live show
+                                    <small class="text-muted d-block">5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Alumni group</b> sent you an invite link
+                                    <small class="text-muted d-block">3 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jane Doe</b> accepted your friend request
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kim Go Ha</b> posted a picture you are tagged in
+                                    <small class="text-muted d-block">2 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Donald Trump</b> commented on a post you are tagged in
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mary Peg</b> and <b>233 others</b> liked your post
+                                    <small class="text-muted d-block">1 MINUTE AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--------------- end of notification popup-------- -->
+                    <a class="menu-item d-flex align-items-center">
+                        <span><i class="fa-solid fa-bookmark fs-5"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item d-flex align-items-center"id="theme">
+                        <span><i class="fa-solid fa-palette fs-5"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item d-flex align-items-center overflow-hidden">
+                        <span><i class="fa-solid fa-gear fs-5"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <!-- ---------end of sidebar-------- -->
+                <label for="create-post" class="btn mt-3 w-100 fw-500 text-center pt-3 pb-3 pl-0 pr-0 text-white btn-prime">Create Post</label>
+            </div>
+
+            <!-- middle -->
+            <div class="middle">
+                <form action="" class="create-post d-flex align-items-center justify-content-between bg-white mt-0.9 w-100">
+                    <div class="profile-picture">
+                        <img src="./IMG/IMG-20220220-WA0010 (2).jpg" alt="">
+                    </div>
+                    <input type="text" class="w-100 bg-transparent text-dark" placeholder="What's on your mind, Keicha?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-prime text-white">
+                </form>
+
+                <!------------------FEEDS----------------->
+                <div class="feeds">
+                    <!------------------FEED 1--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/mijla small.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/FR5images (3).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg" alt=""></span>
+                            <span><img src="./IMG/Omar image.jpeg" alt=""></span>
+                            <p>Liked by <b>Willow Brain</b> and <b>2,500 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Holiday Special <span class="harshtag">#Lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed1---------------- -->
+
+                    <!------------------FEED 2--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/Omar Borkan.jpeg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Benjamin Uzoechi</h3>
+                                    <small>Miami, 5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/HB 10 potatoes images (3).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/tgif 2 4.png" alt=""></span>
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/Chris Evans.jpeg" alt=""></span>
+                            <p>Liked by <b>Ebuka Uzoechi</b> and <b>2,000 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Benjamin Uzoechi</b> A healthy breakfast of potatoes is very important for a healthy family. <span class="harshtag">#Healthymeal</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed2---------------- -->
+                    
+                    <!------------------FEED 3-------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/justin-essah-0xqmwDnYnEc-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Joseph Nwankwo</h3>
+                                    <small>Lagos, 20 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/HB 14images (3) 2.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/beautiful girl images (4).jpeg" alt=""></span>
+                            <span><img src="./IMG/FB_IMG_1555354680172.jpg" alt=""></span>
+                            <p>Liked by <b>Lana Rose</b> and <b>500 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Joseph Nwankwo</b> Omoh, husband material 1000 yards <span class="harshtag">#Food</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 200 comments</div>
+                    </div>
+                    <!-----------------end of feed3---------------- -->
+
+                    <!------------------FEED 4--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/FB_IMG_1555354699034.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Kelly Oladepo</h3>
+                                    <small>Canada, 1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/FR2images (3).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/FB_IMG_1555354699034.jpg" alt=""></span>
+                            <span><img src="./IMG/FB_IMG_1555354680172.jpg" alt=""></span>
+                            <p>Liked by <b>Mary Oladepo</b> and <b>5,500 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Kelly Oladepo</b> Family over everything <span class="harshtag">#Lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 500 comments</div>
+                    </div>
+                    <!-----------------end of feed 4---------------- -->
+
+                    <!------------------FEED 5--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/tgif 2 4.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Chigo Obiyo</h3>
+                                    <small>Dublin, 2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/enjoying nature.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mijla small.jpg" alt=""></span>
+                            <span><img src="./IMG/FB_IMG_1555354680172.jpg" alt=""></span>
+                            <span><img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg" alt=""></span>
+                            <p>Liked by <b>Brenda Anyanwu</b> and <b>3000 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Chigo Obiyo</b> Enjoying nature is stress relieving. <span class="harshtag">#Fashion</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed5---------------- -->
+
+                    <!------------------FEED 6--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Ibeh Ijeoma</h3>
+                                    <small>Port-harcourt, 3 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/FR images (3).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/CHRIS EVANS images (3).jpeg" alt=""></span>
+                            <span><img src="./IMG/beautiful girl images (4).jpeg" alt=""></span>
+                            <p>Liked by <b>Keicha</b> and <b>2,500 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Ibeh Ijeoma</b> Spending time, with family is extremely important <span class="harshtag">#family</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed6---------------- -->
+
+                    <!------------------FEED 7--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/Dp 3mages (4).jpeg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Britny Rose</h3>
+                                    <small>Dubai, 1 WEEK AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/KDW 4images (3).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/justin-essah-0xqmwDnYnEc-unsplash.jpg" alt=""></span>
+                            <span><img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg" alt=""></span>
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <p>Liked by <b>David Mark</b> and <b>4000 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Britny Rose</b> Hey guys check out my new kitchen decor <span class="harshtag">#Interiordecor</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed7---------------- -->
+
+                    <!------------------FEED 8--------------  -->
+                    <div class="feed bg-white p-3">
+                        <div class="head d-flex justify-content-between">
+                            <div class="user d-flex gap-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/Chris Evans.jpeg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Chiebuka Ibeh</h3>
+                                    <small>Nigeria, 1 MONTH AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo overflow-hidden">
+                            <img src="./IMG/children visit images (4).jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons d-flex align-items-center justify-content-between">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                                <span><i class="fa-solid fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-solid fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by d-flex">
+                            <span><img src="./IMG/mompad small.jpg" alt=""></span>
+                            <span><img src="./IMG/Chris Evans.jpeg" alt=""></span>
+                            <span><img src="./IMG/Dp 3mages (4).jpeg" alt=""></span>
+                            <p>Liked by <b>Joseph Pi</b> and <b>2,500 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Chiebuka Ibeh</b> God still loves <span class="harshtag">#MissionWork</span></p>
+                        </div>
+                        <div class="comments text-muted">view all 2000 comments</div>
+                    </div>
+                    <!-----------------end of feed8---------------- -->
+                    <!-----------------end of feed---------------- -->
+                </div>
+                <!----------------- END OF FEEDS ---------------- -->
+            </div>
+            <!-- END OF MIDDLE -->
+
+            
+             <!-- ------------RIGHT SECTION--------- -->
+             <div class="right position-sticky">
+                <div class="messages bg-white">
+                    <div class="heading d-flex align-items-center justify-content-between">
+                        <h4>News Feed</h4><i class="fa-solid fa-edit"></i>
+                    </div>
+                    <!-----------------------SEARCH BAR------------------->
+                    <div class="search-bar">
+                         <i class="fa-solid fa-search"></i>
+                         <input type="search" placeholder="Search interesting news" id="message-search">
+                    </div>
+                    <!-----------------------MESSAGES CATEGORY------------------->
+                    <div class="category d-flex justify-content-between">
+                        <h6 class="active w-100 text-center pb-2">Latest</h6>
+                        <h6 class="w-100 text-center pb-2">General</h6>
+                        <h6 class="message-requests w-100 text-center pb-2">Entertainment</h6>
+                    </div>
+                    <!-----------------------MESSAGE-------------------->
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/CHRIS EVANS images (3).jpeg">
+                            <h5 class="mt-2 d-flex">THISDAY</h5>
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-ASUU extends strike.</p>
+                            <p class="text-muted">-BENOVELENT PRESIDENT: President Buhari gives exotic SUV's to Niger despite ASUU strike.</p>
+                            <p class="text-muted">-Government was not involved in my release -Prof. Immam(Released Kadunna train abductee).</p>
+                        </div>
+                    </div>
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/Omar Borkan.jpeg">
+                            <h5 class="d-flex mt-2">ARISENEWS</h5>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-Behold the winners of the short movie competition.</p>
+                            <p class="text-muted">-Adah Emeh: Family says Empress is taking the glory.</p>
+                        </div>
+                    </div>
+                    <div class="message d-block align-items-start">
+                            <div class="profile-picture d-flex gap-3 position-relative   overflow-visible">
+                                <img src="./IMG/justin-essah-0xqmwDnYnEc-unsplash.jpg">
+                                <h5 class="d-flex mt-2">POLITICS</h5>
+                                <div class="active"></div>
+                            </div>   
+                        
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-Dino Melaye is no march for APC Spokesman</p>
+                            <p class="text-muted">-WE ARE OBEDIENT not ATICULATED -Youths</p>
+                            <p class="text-muted">-WHEN THE CATHOLIC PRIEST BOWS TO POLITICS -Reno Omokri</p>
+                        </div>
+                    </div>
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg">
+                            <h5 class="d-flex mt-2">GUARDIAN</h5>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-Pastor's prayer raises 80years old woman from the dead</p>
+                            <p class="text-muted">-Kumuyi's GCK becomes a brand</p>
+                            <p class="text-muted">-Withdrawal from banks by customers becomes alarming</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------END OF NEWS------------>
+
+                <!--------------------ENTERTAINMENTS------------>
+                <div class="friend-requests">
+                <h4>ENTERTAINMENTS</h4>
+                <div class="messages bg-white">
+                    <!-----------------------SEARCH BAR------------------->
+                    <div class="search-bar">
+                         <i class="fa-solid fa-search"></i>
+                         <input type="search" placeholder="Search interesting news" id="message-search">
+                    </div>
+                    
+                    <!-----------------------MESSAGE-------------------->
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/CHRIS EVANS images (3).jpeg">
+                            <h5 class="mt-2 d-flex align-items-center justify-content-center">INSTABLOG</h5>
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-ASUU extends strike.</p>
+                            <p class="text-muted">-BENOVELENT PRESIDENT: President Buhari gives exotic SUV's to Niger despite ASUU strike.</p>
+                        </div>
+                    </div>
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/Omar Borkan.jpeg">
+                            <h5 class="d-flex mt-2">THISDAY</h5>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-TOBI AMUSAN: THE COMMONWEALTH NEWS</p>
+                            <p class="text-muted">-OPINIONS: TOP 5 INSTAGRAM SKIT MAKERS</p>
+                        </div>
+                    </div>
+                    <div class="message d-block align-items-start">
+                        <div class="profile-picture d-flex gap-3 position-relative overflow-visible">
+                            <img src="./IMG/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg">
+                            <h5 class="d-flex mt-2">GUARDIAN</h5>
+                        </div>
+                        <div class="message-body mt-2">
+                            <p class="text-muted">-Pastor's prayer raises 80years old woman from the dead</p>
+                            <p class="text-muted">-Kumuyi's GCK becomes a brand</p>
+                            <p class="text-muted">-Withdrawal from banks by customers becomes alarming</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+             <!-----------------END OF RIGHT------------  -->
+        </div>
+    </main>
+
+    <!--------------------------------THEME CUSTOMIZATION------------------  -->
+    <div class="customize-theme position-fixed top-0 text-center d-grid d-none">
+        <div class="card bg-white p-5">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font-size, color and background.</p>
+
+            <!----------FONT SIZES--------->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size w-100 d-flex justify-content-between align-items-center">
+                        <span class="font-size1"></span>
+                        <span class="font-size2 active"></span>
+                        <span class="font-size3"></span>
+                        <span class="font-size4"></span>
+                        <span class="font-size5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- ---------------color palette------ -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color d-flex align-items-center justify-content-between">
+                    <span class="color1 active"></span>
+                    <span class="color2"></span>
+                    <span class="color3"></span>
+                    <span class="color4"></span>
+                    <span class="color5"></span>
+                </div>
+            </div>
+
+            <!---------background colors---------->
+            <div class="background mt-4">
+                <h4>Background</h4>
+                <div class="choosebackground d-flex align-items-center justify-content-between">
+                    <div class="bcg1 active bg-white text-dark">
+                        <span></span>
+                        <h5 for="bcg1">Light</h5>
+                    </div>
+                    <div class="bcg2 text-white">
+                        <span></span>
+                        <h5 for="bcg2">Dim</h5>
+                    </div>
+                    <div class="bcg3 text-white">
+                        <span></span>
+                        <h5 for="bcg3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/js/bootstrap.min.js"></script>
+</body>
+</html>

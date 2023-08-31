@@ -1,0 +1,70 @@
+.fontz{
+    font-family: Garamond,serif;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.freak1{
+    background-color:#0066cc;
+    box-shadow: 0px 35px 6px 1px #0f0f0a
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.freak1 li a{
+    color: white;
+}
+.freak1 li a:hover{
+    color: black;
+}
+.bgimage{
+    background-image:url(../../img/theme1.jpg);
+    
+    
+}
+.shade{
+    text-shadow: 1px 1px ;
+}
+.black{
+    color: #0f0f0a;
+}
+.chaat{
+    position: relative;
+    left: 30rem;
+}
+.space{
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width:998px){
+    .chaat{
+        display: none;
+    }
+    .space{
+        background-color: white;
+        width: 50%;
+        margin-left: 18%;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    .chaat{
+        /* position:unset; */
+        /* left: 0rem; */
+        display: none;
+    }
+    .space{
+        background-color: white;
+        width: 50%;
+        margin-left: 20%;
+        margin-right: auto;
+    }
+}
+

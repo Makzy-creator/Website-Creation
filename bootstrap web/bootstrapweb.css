@@ -1,0 +1,35 @@
+.navbar{
+    background-color: black;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+}
+.navbar-brand:hover{
+    color: orangered;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: orangered;
+}
+.news-inner input{
+    border: none;
+    outline: none;
+}
+.news-inner{
+    align-items: center;
+    padding: 8px;
+}
+.news{
+    display: flex;
+}
+.con{
+    width: 30px;
+    height: 50px;
+}

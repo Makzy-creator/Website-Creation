@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/privatemessages.css">
+    <link rel="stylesheet" href="./CSS/mainpage.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./C"> -->
+    <title>private message</title>
+</head>
+<body class="body d-flex justify-content-center align-items-center">
+        <nav class="navbar navbar-expand-lg bg-white p-2 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">CONNEKT</a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span><i class="fa fa-bars"></i></span></button>
+    
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <div class="create ms-auto d-flex align-items-center justify-content-between">
+                        <div class="profile-picture">
+                            <img src="./IMG/IMG-20220220-WA0010 (2).jpg" alt="profile-picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+    <main class="sectionn">
+        <div class="container d-grid">
+            <!-- --------------left side------- -->
+            <div class="left">
+                <!-- -------------Side Bar---------- -->
+                <div class="sidebar bg-white">
+                    <a class="menu-item active d-flex align-items-center">
+                        <span><i class="fa-solid fa-house mx-4"></i></span><h3 class="mt-1 d-none d-lg-flex">Home</h3>
+                    </a>
+                    <a  class="menu-item d-flex align-items-center" id="explores">
+                        <span><i class="fa-solid fa-compass mx-4"></i></span><h3 class="mt-1">Explore</h3>
+                        <!-- explore popup -->
+                        <div class="explores-popup bg-white">
+                            <div class="d-block align-items-center justify-content-between">
+                                <h5 class="lead mb-0">Interior decors group</h5>
+                                <a href="MAININTERIORSDECOR.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <button class="bottn bottn-primary d-flex w-50 py-1 mt-0 justify-content-center mb-3 text-white" for="create-post">Enter</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>    
+                            <div class="d-block align-items-center justify-content-between">
+                                <h5 class="lead">Unique designers</h5>
+                                <a href="#">
+                                    <div class="d-flex">
+                                        <div class="">
+                                        <button class="bottn bottn-primary d-flex w-50 py-1 mb-3 justify-content-center" for="create-post">Enter</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>    
+                            <div class="d-block align-items-start mb-3">
+                                <h5 class="lead">The Indomitables Hub</h5>
+                                <a href="#">
+                                    <div class="d-flex">
+                                        <div>
+                                            <button class="bottn bottn-primary d-flex w-50 py-1 justify-content-center" for="create-post">Enter</button>
+                                        </div>
+                                    </div>
+                                </a>   
+                            </div>    
+                        </div>
+                        <!-- end of explore popup -->
+                    </a>
+
+                    <a class="menu-item d-flex align-items-center" id="notifications">
+                        <span><i class="fa-solid fa-bell mx-4"><small class="notification-count bg-danger text-white">9+</small></i></span><h3 class="mt-1">Notifications</h3>
+                        <!--------------- notification popup-------- -->
+                        <div class="notifications-popup bg-white p-3 left-md-50">
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="profile-picture">
+                                    <img class="img-fluid d-block" src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Palmer</b> accepted your friend request
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ibeh Chiebuka</b> commented on your post
+                                    <small class="text-muted d-block">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/blog-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Obasi Ijeoma</b> liked your picture
+                                    <small class="text-muted d-block">2 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/blog-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Wilson Tech</b> is inviting you to join the live show
+                                    <small class="text-muted d-block">5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Alumni group</b> sent you an invite link
+                                    <small class="text-muted d-block">3 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jane Doe</b> accepted your friend request
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kim Go Ha</b> posted a picture you are tagged in
+                                    <small class="text-muted d-block">2 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Donald Trump</b> commented on a post you are tagged in
+                                    <small class="text-muted d-block">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start g-4 mb-3">
+                                <div class="profile-picture">
+                                    <img src="./IMG/about-1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mary Peg</b> and <b>233 others</b> liked your post
+                                    <small class="text-muted d-block">1 MINUTE AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--------------- end of notification popup-------- -->
+                    <a class="menu-item d-flex align-items-center">
+                        <span><i class="fa-solid fa-bookmark mx-4"></i></span><h3 class="mt-1">Bookmarks</h3>
+                    </a>
+                    <a class="menu-item d-flex align-items-center">
+                        <span><i class="fa-solid fa-chart-line mx-4"></i></span><h3 class="mt-1">Analytics</h3>
+                    </a>
+                    <a class="menu-item d-flex align-items-center"id="theme">
+                        <span><i class="fa-solid fa-palette mx-4"></i></span><h3 class="mt-1">Theme</h3>
+                    </a>
+                </div>
+                <!-- ---------end of sidebar-------- -->
+            </div>
+            <!-- ------------End of Left side -->
+
+            <!-- ------------chats---- -->
+            <div class="chats">
+                <div class="header d-flex justify-content-between align-items-center px-4">
+                    <div class="profil d-flex align-items-center justify-content-center mb-2">
+                        <a href="index.html"><i class="fa fa-house text-white"></i></a>
+                        <div class="img">
+                            <img class="img-fluid d-block cover" src="./IMG/about-1.jpg">
+                        </div>
+                        <h4 class="text-white mb-0 pt-2">Ibeh <span class="">Chiboy</span> <span class="d-block online mt-3">online</span></h4>
+                    </div>
+                    <ul class="nav-icons d-flex">
+                        <li><i class="fa fa-video text-white"></i></li>
+                        <li><i class="fa fa-phone text-white"></i></li>
+                        <li><i class="fa fa-ellipsis-v text-white"></i></li>
+                    </ul>
+                </div>
+                <!-- chatbox -->
+                <div class="chatBox">
+                    <div class="message my-message">
+                        <p>Good morning Sir <span class="d-block">6:27AM</span></p>
+                    </div>
+                    <div class="message respondent">
+                        <p>Good morning Ma. How's everything going? <span class="d-block">6:30AM</span></p>
+                    </div>
+                    <div class="message my-message">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur neque consectetur at nemo voluptatibus. <span class="d-block">6:32AM</span></p>
+                    </div>
+                    <div class="message respondent">
+                        <p>WOG. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, repellendus.<span class="d-block">6:32AM</span></p>
+                    </div>
+                    <div class="message my-message">
+                        <p>Hello, MOG <span class="d-block">10:00PM</span></p>
+                    </div>
+                    <div class="message respondent">
+                        <p>Good evening Ma. How's everything going? <span class="d-block">10:03PM</span></p>
+                    </div>
+                    <div class="message my-message">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur omnis explicabo, et quis aliquid aut esse accusamus? <span class="d-block">10:07PM</span></p>
+                    </div>
+                    <div class="message respondent">
+                        <p>how far the stuff? I'll need it tomorrow <span class="d-block">10:10PM</span></p>
+                    </div>
+                    <div class="message my-message">
+                        <p>I've written it down. <span class="d-block">10:15PM</span></p>
+                    </div>
+                    <div class="message respondent">
+                        <p>Ok.Thank you Ma.<span class="d-block">10:15PM</span></p>
+                    </div>
+                </div>
+                <!-- end of chatbox -->
+                <!-- chat input -->
+                <div class="chatbox_input">
+                    <i class="fa fa-smile text-white"></i>
+                    <i class="fa fa-paperclip text-white"></i>
+                    <input type="text" placeholder="Message">
+                    <i class="fa fa-paper-plane text-white"></i>
+                    <i class="fa fa-camera text-white mx-2" ></i>
+                    <i class="fa fa-microphone text-white"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!--------------------------------THEME CUSTOMIZATION------------------  -->
+    <div class="customize-theme text-center d-none d-grid">
+        <div class="card bg-white">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font-size, color and background.</p>
+
+            <!----------FONT SIZES--------->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <h6>Aa</h6>
+                    <div class="choose-size d-flex align-items-center justify-content-between">
+                        <span class="font-size1"></span>
+                        <span class="font-size2 active"></span>
+                        <span class="font-size3"></span>
+                        <span class="font-size4"></span>
+                        <span class="font-size5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- ---------------color palette------ -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color d-flex align-items-center justify-content-between">
+                    <span class="color1 active"></span>
+                    <span class="color2"></span>
+                    <span class="color3"></span>
+                    <span class="color4"></span>
+                    <span class="color5"></span>
+                </div>
+            </div>
+
+            <!---------background colors---------->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choosebackground d-flex align-items-center justify-content-between">
+                    <div class="bcg1 active d-flex align-items-center bg-white">
+                        <span></span>
+                        <h5 for="bcg1">Light</h5>
+                    </div>
+                    <div class="bcg2 d-flex align-items-center">
+                        <span></span>
+                        <h5 for="bcg2">Dim</h5>
+                    </div>
+                    <div class="bcg3 d-flex align-items-center">
+                        <span></span>
+                        <h5 for="bcg3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+/* body{
+    overflow-y: hidden;
+} */
+
+
+
+
+/* #football .b1{
+    position: relative;
+}
+#football .b1::after{
+    content: "";
+    height: 150px;
+    position: absolute;
+    width: 30%;
+    border-radius: 5px;
+    background-color: #1aff1a;
+
+}
+ */
+/* .b1{
+    background-color: #1aff1a ;
+    height: 10px;
+    width:10px;
+    border-radius: 10px;
+} */
+
+
+.car{
+    height: 60px;
+    width: 110px;
+    margin-top: -18px;
+}
+.cardiv{
+    height: 100px
+}
+
+.barr{
+    height: 60px;
+}
+.mem{
+    display:flex;
+    justify-content:center;
+}
+
+.mem2{
+    margin-top: -5px;
+}
+.image{
+    height: 30px;
+    width: 30px;
+    border-radius: 35px;
+    margin-bottom: 5px;
+}
+.wid{
+    width: 10px;
+}
+.dig{
+    height: 35px;
+    width: 35px;
+}
+.dig2{
+    height: 45px;
+    width: 45px;
+}
+.dig3{
+    height: 45px;
+    width: 45px;
+}
+.dig4{
+    height: 40px;
+    width: 40px;
+    border-radius: 250px;
+    margin-top: -19px;
+}
+.chatdiv{
+    background-color: #0066cc;
+    color: white;
+    max-width: 50%;
+    border-radius: 0px 7px 8px 6px;
+}
+.chatdiv span{
+    color: black;
+}
+
+
+/* .chatdiv2{
+    background-color: #575555;
+    color: white;
+    max-width: 50%;
+    border-radius: 7px 0px 8px 6px;
+} */
+.chatdiv3{
+    background-color: #575555;
+    color: white;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 7px 0px 8px 6px;
+}
+.chatdiv3 h6{
+    margin-left:370px;
+}
+.line{
+    margin-top: -3px;
+}
+/* .flo{
+    float: right;
+} */
+/* .mag{
+    margin-left: 52%;
+} */
+
+/* .widd{
+    width: 80%;
+    height: 40%;
+} */
+textarea{
+    border: none;
+    outline: none;
+}
+.fontz{
+    font-family: Garamond,serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.free{
+    overflow-y: scroll;
+    height: 400px;
+}
+
+
+.free2{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.freak{
+    background-color:#4d4d4d;
+    height: 500px;
+    overflow-y: scroll;
+}
+.freak li a{
+    color: white;
+}
+.freak li a:hover{
+    color: black;
+}
+.fixedbtm{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin: 0;
+}
+.bgimage{
+    background-image:url(../../img/theme1.jpg);
+    
+    
+}
+.try{
+    width: 50%;
+    /* height: 50px; */
+    margin-left: 510px;
+    
+}
+.try-content {
+    width: 100%;
+}
+.dark{
+    color: black;
+}
+.clock{
+    color: black;
+    
+}
+.clock2{
+    color: white;
+}
+
+@media screen and (max-width: 820px){
+    .try{
+        width: 50%;
+        /* height: 50px; */
+        margin-left: 350px;
+        
+    }
+    .free{
+        overflow-y: scroll;
+        height: 800px;
+    }
+    .free2{
+        overflow-y: scroll;
+        height: 890px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .mag{
+        position: relative;
+        left: -11rem ;
+        color: white;
+    }
+    h6{
+        font-size: 25px;
+        color: white;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+    .free{
+        overflow-y: scroll;
+        height: 600px;
+    }
+    .chatdiv{
+        width: 80%;
+    
+        max-width: 100%;
+    }
+    .chatdiv2{
+        width: 100%;
+        
+    }
+    .try{
+        width: 80%;
+        /* height: 50px; */
+        margin-left: 100px;
+        
+    }
+    .free2{
+        overflow-y: scroll;
+        height: 580px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .cardiv{
+        height: 120px
+    }
+    /* .chatdiv3{
+        width: 35%;
+    } */
+    /* .chatdiv3 h6{
+        margin-right: 5%;
+        padding-right: 10px;
+    } */
+    /* .mag{
+        margin-left: %;
+        margin-right: 30%;
+    } */
+    .mag{
+        position: relative;
+        left: -15rem ;
+        color: white;
+    }
+}
+@media screen and (max-width:300px){
+    .free{
+        overflow-y: scroll;
+        height: 300px;
+    }
+}

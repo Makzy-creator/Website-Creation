@@ -1,0 +1,204 @@
+
+:root{
+    --color-dark: hsl(252, 30%, 17%);
+    --color-white: hsl(252, 30%, 100%);
+    /* --color-prime: hsl(262, 75%, 60%); */
+    --color-prime: hsl(262, 90%, 55%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --botton-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+}
+
+/* body::before{
+    display: block;
+    content: '';
+    height: 100px;
+} */
+
+.body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: var(--color-dark); */
+    overflow-x: hidden;
+    background-color: var(--color-white);
+    /* background-color: rgb(1, 20, 73); */
+}
+.login-btn:hover{
+    color: white;
+    opacity: 0.8;
+}
+
+body a{
+    text-decoration: none;
+    color: var(--color-prime);
+}
+
+body a:hover{
+    color: var(--color-prime);
+}
+
+/* forgotten password */
+.section2 .container .btn{
+    width: 10rem;
+}
+/* .section2 .container a:hover{
+    opacity: ;
+    color: white;
+    background-color: hsl(262, 64%, 37%);
+} */
+
+/* .section2 .container .news-input input{
+    margin-left: 10rem;
+    width: ;
+} */
+
+.section2 .container h1{
+    font-family: 'century gothic',Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 2rem;
+    text-align: center;
+}
+/* end of forgotten password */
+
+/* ---nav---- */
+.navbar{
+    background-color: #fff;
+}
+nav .container .btn{
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--color-prime);
+    color: var(--color-prime);
+}
+
+nav .container .btn:hover{
+    opacity: 0.8;
+    background-color: hsl(262, 64%, 37%);
+    color: white;
+}
+
+nav .container .nav-link{
+    color: var(--color-prime);
+}
+    /* termsnservices */
+.navbarr .container .green{
+    color: var(--color-prime);
+}
+    /*end of termsnservices */
+
+nav .dropdown-menu{
+    /* background-color: var(--color-prime); */
+    border: 2px solid var(--color-prime);
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+nav .dropdown-item:hover{
+    background-color: rgb(222, 219, 219);
+    color: white;
+}
+nav, section{
+    /* color:hsl(262, 76%, 55%) ; */
+    color: hsl(262, 90%, 55%);
+} 
+
+nav .container .close{
+    color: hsl(262, 90%, 55%);
+}
+/* ----------nav---------- */
+
+
+/* ------------modal------- */
+.modal .modal-header{
+    background-color:hsl(262, 90%, 55%);
+    color: white;
+}
+.modal .modal-header .modal-title{
+    color: white;
+}
+
+.modal .modal-footer{
+    background-color: hsl(262, 90%, 55%);
+    color: white;
+}
+
+.modal .btn{
+    background-color:hsl(262, 90%, 55%);
+}
+
+.modal .btn:hover{
+    opacity: 1;
+    color: black;
+    background-color: hsl(262, 64%, 37%);
+}
+/* ------------end of modal----------- */
+
+
+/* gold: #ffd700; */
+section .container h1 span{
+    font-family: 'century gothic',Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.hr{
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color:hsl(262, 90%, 55%);
+}
+
+section .container .btn{
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    border: 2px solid hsl(262, 90%, 55%);
+    width: 70%;
+    color: hsl(262, 90%, 55%);
+}
+
+
+.my-container{
+    height: calc(100vh - 72px);
+    overflow: hidden;
+}
+
+section .container .hr{
+    width: 10.5rem;
+}
+
+section .container .btn:hover{
+    opacity: 0.8;
+    background-color: hsl(262, 64%, 37%);
+    color: white; 
+}
+
+@media(min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+h1.fw-bold { 
+    font-family: 'century gothic';
+    font-variant: small-caps;
+    font-size: 100%;
+}
+
+#theform { display: table;
+padding: 30px 0;
+box-sizing: border-box;
+box-shadow: inset;
+text-align: center;
+}
+
+section input .form-control { 
+display: table-row;
+margin-right: auto;
+margin-left: auto;
+}
+
+.news-input input{
+    border: 1px solid hsl(262, 90%, 55%);
+}
